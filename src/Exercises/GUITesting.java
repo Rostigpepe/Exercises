@@ -5,7 +5,7 @@ import javax.swing.*;
 public class GUITesting {
 
     GUITesting(){
-        //alternativt kan man låta denna klass extenda JFrameDemo
+        //alternativt kan man låta denna klass extenda GUITesting
         //Då behövs inget JFrame-objekt och istf. "jf." används "this."
         JFrame jf = new JFrame();
         jf.setTitle("En titel");
